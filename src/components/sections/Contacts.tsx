@@ -16,7 +16,7 @@ export default function Contatos() {
         <div className="mt-10 flex justify-center gap-x-8 md:gap-x-12">
           
           <a
-            href="https://github.com/seu-usuario"
+            href="https://github.com/Nicolas-Monteiro"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -25,7 +25,7 @@ export default function Contatos() {
           </a>
 
           <a
-            href="https://linkedin.com/in/seu-perfil"
+            href="https://www.linkedin.com/in/n%C3%ADcolas-monteiro-2a1b24372/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"

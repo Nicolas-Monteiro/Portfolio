@@ -1,31 +1,7 @@
 "use client"
+
 import Link from 'next/link'
 import { Menu } from 'lucide-react'
-
-// export default function Header() {
-//   return (
-//     <header className="fixed top-0 left-0 w-full p-4 sm:px-8 z-50 bg-slate-60 backdrop-blur-sm dark:bg-slate-800">
-//       <div className="max-w-7xl mx-auto flex justify-between items-center">
-//         <Link href="#inicio" className="text-2xl font-bold text-black dark:text-white">
-//           Nícolas
-//         </Link>
-//         <nav className="hidden md:flex gap-x-8">
-//           <Link href="#projetos" className="text-slate-700 hover:text-black transition-colors dark:text-white">
-//             Projetos
-//           </Link>
-//           <Link href="#sobre" className="text-slate-700 hover:text-black transition-colors dark:text-white">
-//             Sobre mim
-//           </Link>
-//           <Link href="#contato" className="text-slate-700 hover:text-black transition-colors dark:text-white">
-//             Contato
-//           </Link>
-//           <ModeToggle/>
-//         </nav>
-//       </div>
-//     </header>
-//   );
-// }
-
 import {
   Sheet,
   SheetContent,
@@ -33,7 +9,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 import Button  from "@/components/ui/Button"
-import { ModeToggle } from '@/components/ui/Theme_button'; 
+import { ModeToggle } from '@/components/ui/Theme_button'
 
 export default function Header() {
   return (
@@ -90,5 +66,5 @@ export default function Header() {
         </div>
       </div>
     </header>
-  );
+  )
 }

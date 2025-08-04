@@ -4,11 +4,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 type CardProps = {
-  imageUrl: string;
-  title: string;
-  description: string;
-  linkHref: string;
-  linkText: string;
+  imageUrl: string
+  title: string
+  description: string
+  linkHref: string
+  linkText: string
 };
 
 export default function Card({ imageUrl, title, description, linkHref, linkText }: CardProps) {
@@ -39,5 +39,5 @@ export default function Card({ imageUrl, title, description, linkHref, linkText 
       </div>
       
     </div>
-  );
+  )
 }

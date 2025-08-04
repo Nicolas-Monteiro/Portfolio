@@ -19,10 +19,10 @@ export default function Home() {
         </div>
 
         <div className="mt-8 flex flex-row gap-x-8">
-          <Button variant='primary'>
+          <Button href="#projetos" variant='primary' >
             PROJETOS
           </Button>
-          <Button variant='secondary'>
+          <Button href= "https://www.linkedin.com/in/n%C3%ADcolas-monteiro-2a1b24372/" variant='secondary'>
             Linkedin
           </Button>
         </div>
