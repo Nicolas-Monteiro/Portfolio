@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-    title: 'Nome do App',
+    title: 'Portfolio',
     description: 'Descrição do App',
-    applicationName: 'Nome do App',
+    applicationName: 'Portfolio',
     authors: [{ url: 'https://seedabit.org.br', name: 'Seed a Bit' }],
     keywords: ['palavra-chave', 'palavra-chave'],
     creator: 'Seed a Bit',
